@@ -5,9 +5,9 @@
 This lab report will take a closer look at all of the commands run in the lab competition and how I used shortcuts to complete alal the tasks quickly as I could.
 For the competition, I had to complete the following tasks: 
 
-1. *Setup* Delete any existing forks of the repository you have on your account
-2. *Setup* Fork the repository
-3. *The real deal* Start the timer!
+1. **Setup** Delete any existing forks of the repository you have on your account
+2. **Setup** Fork the repository
+3. **The real deal** Start the timer!
 4. Log into ieng6
 5. Clone your fork of the repository from your Github account
 6. Run the tests, demonstrating that they fail
@@ -36,12 +36,14 @@ Pressing the control and r keys together allow me to search for commands in my h
 ### 6. Run the tests, demonstrating that they fail
 
 _Keys pressed (for compiling files):_ 
+
 `cd lab7`
 `<ctrl><r>javac<enter>`
 
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile all files
 
 _Keys pressed (for running tests):_ 
+
 `<ctrl><r>java <enter>`
 
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples` to run the tester file.
@@ -49,6 +51,7 @@ _Keys pressed (for running tests):_
 ### 7. Edit the code file to fix the failing test
 
 _Keys pressed:_ 
+
 `nano L<tab>.java<enter>`
 `<ctrl><w>index1 +=<enter><down><down><down><down><right><right><right><right><right><right><backspace>2<ctrl><x>Y<enter>`
 
@@ -56,7 +59,6 @@ _Keys pressed:_
 ### 8. Run the tests, demonstrating that they now succeed
 
 _Keys pressed (for compiling files):_ 
-`cd lab7`
 `<ctrl><r>javac<enter>`
 
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile all files
@@ -69,6 +71,7 @@ _Keys pressed (for running tests):_
 ### 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 _Keys pressed:_ 
+
 `<ctrl><r>git a<enter>`
 `<ctrl><r>git c<enter>`
 `<ctrl><r>git p<enter>`
@@ -77,7 +80,9 @@ This step was done by runnning 3 commands. The first command found `git add List
 
 The second command found `git commit -m "[FIXED]"` in my history, and saved the changes made to my local repository with the message "[FIXED]".
  
- Lastly, running the third command found `git push` in my history, and running it uploaded local repository content to a remote repository
+ Lastly, running the third command found `git push` in my history, and running it uploaded local repository content to a remote repository.
+ 
+ All
  
  
 ## Conclusion
