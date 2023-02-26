@@ -22,6 +22,8 @@ For the purposes of this report, we will start fromm step 4 and assume that the 
 _Keys pressed:_ 
 `<up><enter>`
 
+![](Step 4.png)
+
 Since I had typed this in previously and it was the last command before logging into ieng6, I just had to press the up arrow to access it and pressed the enter 
 key to run the command which came up (`ssh cs15lwi23aqv@ieng6.ucsd.edu`). Since the ssh key was setup, I wasn't prompted for a password and was automatically 
 logged in.
