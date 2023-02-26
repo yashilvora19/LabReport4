@@ -55,13 +55,13 @@ _Keys pressed:_
 
 `nano L<tab>.java<enter>`
 
-`<ctrl><w>index1 +=<enter><down><down><down><down><right><right><right><right><right><right><backspace>2`
+`<ctrl><w>result<enter><up><up><right><right><right><right><right><right><right><right><backspace>2`
 
 `<ctrl><x>Y<enter>`
 
 The first command opened up the file in the terminal so that I could fix the bug. Pressing the tab button autocompleted the file name. Since there were 2 `ListExamples` files (one with a `.java` extension and one with a `.class` extension, I had to type in `java` in order to make sure I open the correct file). 
 
-Once I opened up the file in the terminal, I knew which part I needed to edit and so used the search command in nano by pressing the ctrl and w keys together. I searched for `index1 +=` and clicked on enter. This went to the the first instance of this string in the file. However, that wasn't the one I needed to edit, and so I had to navigate down by 4 lines (which I did by clicking the down button 4 times) and change the "index1" to "index2" (which I did by clicking on the right button 6 times, clicking on the backspace button once, and typing 2). 
+Once I opened up the file in the terminal, I knew which part I needed to edit and so used the search command in nano by pressing the ctrl and w keys together. I searched for `result` (which is just under the last while loop) and clicked on enter. I knew that the issue was with the last while loop (it was updating "index1" instead of "index2") and so navigated to the word "index 1" by clicking on the up arrow twice. This made me navigate up by 2 lines and I then changed the "index1" to "index2" (by clicking on the right button 8 times, clicking on the backspace button once, and typing 2). 
 
 To save these changes, pressed ctrl+x to exit the file. I was prompted with a message asking whether I wanted to save the changes. I typed "Y" and pressed enter to save this. This is how I editted the code to fix the failing test.
 
