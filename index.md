@@ -47,7 +47,7 @@ _Keys pressed (for running tests):_
 
 `<ctrl><r>java <enter>`
 
-I used ctrl+r to find the java command in my history. On finding `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`, I clicked on the enter button to run the tester file. The output of this showed that one of the tests failed and needed to be fixed.
+I used ctrl+r to find the java command in my history. On finding `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`, I clicked on the enter button to run the tester file. The output of this showed that one of the tests failed and needed to be fixed.
 
 ### 7. Edit the code file to fix the failing test
 
@@ -75,7 +75,7 @@ To compile all files in the directory once again, I ran `javac -cp .:lib/hamcres
 _Keys pressed (for running tests):_ 
 `<ctrl><r>java <enter>`
 
-I used ctrl+r to find the java command in my history. On finding `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`, I clicked on the enter button to run the tester file. This time, the output showed that all the tests passed and that there were no failures.
+I used ctrl+r to find the java command in my history. On finding `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`, I clicked on the enter button to run the tester file. This time, the output showed that all the tests passed and that there were no failures.
 
 ### 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
