@@ -38,6 +38,7 @@ Pressing the control and r keys together allow me to search for commands in my h
 _Keys pressed (for compiling files):_ 
 
 `cd lab7`
+
 `<ctrl><r>javac<enter>`
 
 I first changed my directory to lab7 using `cd lab7` so that I could compile and run the files successfully. To compile all files in the directory, I ran `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`. I used the ctrl+r command once again to search for the `javac` command. On finding it, I pressed enter and ran the command. Note: Ending with `*.java` makes sure that all files in the current directory are compiled together.
@@ -53,7 +54,9 @@ I used ctrl+r to find the java command in my history. On finding `java -cp .:lib
 _Keys pressed:_ 
 
 `nano L<tab>.java<enter>`
+
 `<ctrl><w>index1 +=<enter><down><down><down><down><right><right><right><right><right><right><backspace>2`
+
 `<ctrl><x>Y<enter>`
 
 The first command opened up the file in the terminal so that I could fix the bug. Pressing the tab button autocompleted the file name. Since there were 2 `ListExamples` files (one with a `.java` extension and one with a `.class` extension, I had to type in `java` in order to make sure I open the correct file). 
@@ -79,7 +82,9 @@ I used ctrl+r to find the java command in my history. On finding `java -cp .:lib
 _Keys pressed:_ 
 
 `<ctrl><r>git a<enter>`
+
 `<ctrl><r>git c<enter>`
+
 `<ctrl><r>git p<enter>`
 
 This step was done by runnning 3 commands. The first command found `git add ListExamples.java` in my history, and running it added the change in the working directory to the staging area. 
